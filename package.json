@@ -1,0 +1,40 @@
+{
+  "name": "alpaca-typescript-example",
+  "version": "1.0.0",
+  "description": "Write Your First TypeScript Algotrading Bot",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nielse63/alpaca-typescript-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nielse63/alpaca-typescript-example/issues"
+  },
+  "homepage": "https://github.com/nielse63/alpaca-typescript-example#readme",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^2.16.1",
+    "dotenv": "^16.0.3",
+    "lodash.findlastindex": "^4.6.0",
+    "moment": "^2.29.4",
+    "trading-signals": "^3.6.1"
+  },
+  "devDependencies": {
+    "@types/lodash.findlastindex": "^4.6.7",
+    "@types/node": "^18.13.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
